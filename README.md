@@ -1,1 +1,0 @@
-# FunctionalProgramming22S2
