@@ -1,7 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f52d0a8-f5f9-4e6e-864c-84193413f8ce" name="Changes" comment="" />
+    <list default="true" id="1f52d0a8-f5f9-4e6e-864c-84193413f8ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/ConsoleApplication.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/ConsoleApplication.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/ConsoleApplication.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/FSharp.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/FSharp.Core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/cs/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/de/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/en/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/es/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/fr/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/it/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/ja/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/ko/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/pl/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/pt-BR/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/ru/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/tr/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/zh-Hans/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/bin/Debug/zh-Hant/FSharp.Core.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.fsproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.fsproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.fsproj.SuggestedBindingRedirects.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/obj/Debug/FSharp.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/obj/Debug/_IsIncrementalBuild" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/.idea/.idea.ConsoleApplication/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/.idea/.idea.ConsoleApplication/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/Program.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/bin/Debug/ConsoleApplication.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/bin/Debug/ConsoleApplication.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/bin/Debug/ConsoleApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/bin/Debug/ConsoleApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/bin/Debug/ConsoleApplication.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/bin/Debug/ConsoleApplication.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/bin/Debug/FSharp.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/bin/Debug/FSharp.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.exe" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.fsproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.fsproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/build/FSharp.Compiler.Tools.props" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/build/FSharp.Compiler.Tools.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/buildCrossTargeting/FSharp.Compiler.Tools.props" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/buildCrossTargeting/FSharp.Compiler.Tools.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Compiler.Private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Compiler.Private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Compiler.Server.Shared.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Compiler.Server.Shared.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/Microsoft.FSharp.Targets" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/Microsoft.FSharp.Targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/Microsoft.Portable.FSharp.Targets" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/Microsoft.Portable.FSharp.Targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsc.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsc.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsi.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsi.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsiAnyCpu.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsiAnyCpu.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsiAnyCpu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsiAnyCpu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Core.4.5.2/lib/net45/FSharp.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Core.4.5.2/lib/net45/FSharp.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Core.4.5.2/lib/netstandard1.6/FSharp.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp/ConsoleApplication/packages/FSharp.Core.4.5.2/lib/netstandard1.6/FSharp.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankConsoleApplication/.idea/.idea.ConsoleApplication/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/Program.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.fsproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/obj/Debug/ConsoleApplication.fsproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/ConsoleApplication/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/build/FSharp.Compiler.Tools.props" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/build/FSharp.Compiler.Tools.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/buildCrossTargeting/FSharp.Compiler.Tools.props" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/buildCrossTargeting/FSharp.Compiler.Tools.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Compiler.Private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Compiler.Private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Compiler.Server.Shared.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Compiler.Server.Shared.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/FSharp.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/Microsoft.FSharp.Targets" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/Microsoft.FSharp.Targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/Microsoft.Portable.FSharp.Targets" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/Microsoft.Portable.FSharp.Targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsc.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsc.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsi.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsi.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsiAnyCpu.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsiAnyCpu.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsiAnyCpu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Compiler.Tools.10.0.2/tools/fsiAnyCpu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Core.4.5.2/lib/net45/FSharp.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Core.4.5.2/lib/net45/FSharp.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Core.4.5.2/lib/netstandard1.6/FSharp.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SeatBookingSystem/ConsoleApplication/packages/FSharp.Core.4.5.2/lib/netstandard1.6/FSharp.Core.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,23 +90,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\stefa\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\stefa\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\stefa\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\stefa\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\stefa\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\stefa\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,6 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682350946830</updated>
       <workItem from="1682350948574" duration="4000" />
+      <workItem from="1682390856233" duration="54000" />
     </task>
     <servers />
   </component>

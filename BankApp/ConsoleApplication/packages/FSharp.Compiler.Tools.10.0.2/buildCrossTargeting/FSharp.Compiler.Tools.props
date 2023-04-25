@@ -11,12 +11,12 @@ WARNING:  You CAN MODIFY this file, doesnt matter if you are not knowledgeable a
 ***********************************************************************************************
 -->
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <!-- ref https://github.com/dotnet/standard/blob/master/Microsoft.Packaging.Tools/tasks/targets/Microsoft.Packaging.Tools.targets#L12 -->
-  <!-- Condition here is a hack until https://github.com/dotnet/sdk/issues/534 is fixed -->
-  <PropertyGroup Condition="'$(TargetFramework)' == '' and '$(TargetFrameworks)' == ''">
-    <FscTaskAssemblyPath>$(MSBuildThisFileDirectory)../tools/netcoreapp1.0/FSharp.Build.dll</FscTaskAssemblyPath>
-    <FscToolPath>$(MSBuildThisFileDirectory)../tools</FscToolPath>
-    <FscToolExe>fsc.exe</FscToolExe>
-    <FscToolFullPath>$(MSBuildThisFileDirectory)../tools/fsc.exe</FscToolFullPath>
-  </PropertyGroup>
+    <!-- ref https://github.com/dotnet/standard/blob/master/Microsoft.Packaging.Tools/tasks/targets/Microsoft.Packaging.Tools.targets#L12 -->
+    <!-- Condition here is a hack until https://github.com/dotnet/sdk/issues/534 is fixed -->
+    <PropertyGroup Condition="'$(TargetFramework)' == '' and '$(TargetFrameworks)' == ''">
+        <FscTaskAssemblyPath>$(MSBuildThisFileDirectory)../tools/netcoreapp1.0/FSharp.Build.dll</FscTaskAssemblyPath>
+        <FscToolPath>$(MSBuildThisFileDirectory)../tools</FscToolPath>
+        <FscToolExe>fsc.exe</FscToolExe>
+        <FscToolFullPath>$(MSBuildThisFileDirectory)../tools/fsc.exe</FscToolFullPath>
+    </PropertyGroup>
 </Project>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <doc>
-<assembly><name>FSharp.Compiler.Server.Shared</name></assembly>
-<members>
-</members>
+    <assembly>
+        <name>FSharp.Compiler.Server.Shared</name>
+    </assembly>
+    <members>
+    </members>
 </doc>
