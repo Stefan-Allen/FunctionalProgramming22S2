@@ -6,12 +6,12 @@ type AccountType =
 // Define a class for an Account with accountNumber, accountType, and initialBalance fields.
 type Account(accountNumber: string, accountType: AccountType, initialBalance: float32) =
     // Define a mutable balance field with the initial balance value.
-   let mutable balance = initialBalance
+    let mutable balance = initialBalance
 
     // Read-only properties for accountNumber, accountType, and balance.
-   member this.AccountNumber = accountNumber
-   member this.AccountType = accountType
-   member this.Balance = balance
+    member this.AccountNumber = accountNumber
+    member this.AccountType = accountType
+    member this.Balance = balance
 
     // Define methods for withdrawing and depositing money from the account.
     member this.Withdrawal(amount: float32) =
@@ -26,7 +26,7 @@ type Account(accountNumber: string, accountType: AccountType, initialBalance: fl
     member this.Print() =
         printfn "Account Type: %A, Account Number: %s, Balance: %.2f" this.AccountType this.AccountNumber balance
 
-    // function to check account balance status and print a message to the console.
+// function to check account balance status and print a message to the console.
 let CheckAccount (account: Account) =
     match account.AccountType with
     | Checking ->
@@ -48,7 +48,7 @@ let accountsless50 =
       Account("363152", Savings, 49.0f)
       Account("302094", Checking, 25.0f) ]
 
-    // list of accounts with balances $50 or greater.
+// list of accounts with balances $50 or greater.
 let accounts50plus =
     [ Account("0002", Checking, 50.0f)
       Account("375470", Savings, 100.0f)
@@ -70,7 +70,7 @@ let rec executeFunction (accounts: Account list) =
 
     // Read the user's choice from the console.
     let choice = System.Console.ReadLine()
-        
+
     // Execute Appropriate action based on the user's choice.
     match choice with
     | "1" ->
@@ -104,43 +104,42 @@ let rec executeFunction (accounts: Account list) =
             executeFunction accounts
     | "4" ->
         // Prompt the user for an account number and withdrawal amount, and update the account balance.
-            printfn "Enter Account ID: "
-            let accountNumber = System.Console.ReadLine()
+        printfn "Enter Account ID: "
+        let accountNumber = System.Console.ReadLine()
 
-            match accounts |> List.tryFind (fun acc -> acc.AccountNumber = accountNumber) with
-            | Some account ->
-                printfn "How Much Would You Like To Takeout To Bank Account? "
-                let withdrawalAmount = System.Console.ReadLine() |> float32
-                account.Withdrawal(withdrawalAmount)
-                executeFunction accounts
-            | None ->
+        match accounts |> List.tryFind (fun acc -> acc.AccountNumber = accountNumber) with
+        | Some account ->
+            printfn "How Much Would You Like To Takeout To Bank Account? "
+            let withdrawalAmount = System.Console.ReadLine() |> float32
+            account.Withdrawal(withdrawalAmount)
+            executeFunction accounts
+        | None ->
             printfn "Account Not Found In System."
             executeFunction accounts
     | "5" ->
         // Display all accounts with balances less than $50.
-            accountsless50 |> List.iter (fun acc -> acc.Print())
-            executeFunction accounts
+        accountsless50 |> List.iter (fun acc -> acc.Print())
+        executeFunction accounts
     | "6" ->
         // Display all accounts with balances $50 or greater.
-            accounts50plus |> List.iter (fun acc -> acc.Print())
-            executeFunction accounts
+        accounts50plus |> List.iter (fun acc -> acc.Print())
+        executeFunction accounts
     | "7" ->
         // Check and print the balance status for each account.
-            accounts |> List.iter (fun acc -> CheckAccount acc)
-            executeFunction accounts
+        accounts |> List.iter (fun acc -> CheckAccount acc)
+        executeFunction accounts
     | "8" ->
         // Exit the program.
-            printfn "Input Not Recognized try again!"
-            executeFunction accounts
-    | _ ->
-    // Prompt the user for a valid input.
         printfn "Input Not Recognized try again!"
         executeFunction accounts
-        
+    | _ ->
+        // Prompt the user for a valid input.
+        printfn "Input Not Recognized try again!"
+        executeFunction accounts
+
 let printAccounts (accounts: Account list) =
     accounts |> List.iter (fun acc -> acc.Print())
 
-        // Execute the function with the list of accounts.
+// Execute the function with the list of accounts.
 printAccounts (accountsless50 @ accounts50plus)
 executeFunction (accountsless50 @ accounts50plus)
-
