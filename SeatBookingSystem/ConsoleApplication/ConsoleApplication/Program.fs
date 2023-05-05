@@ -11,6 +11,9 @@ let DisplayTickets () =
     for ticket in tickets do
         printfn "    %-5d      %-15s" ticket.seat ticket.customer
 
+// Created the object lockObj used as a lock and can be taken off after update 
+let lockObj = obj()
+
 // Define a function to book a seat with a given customer name and seat number
 let BookSeat (customerName:string, seatNumber:int) =
     // Define a local function to assign a customer name to a ticket with a given seat number
@@ -19,9 +22,13 @@ let BookSeat (customerName:string, seatNumber:int) =
             { ticket with customer = customerName }
         else
             ticket
+    System.Threading.Monitor.Enter(lockObj) // Enter the critical section
+    try
     // Map over the list of tickets and update the ticket with the given seat number
     tickets <- List.map assignCustomer tickets
-
+    finally
+    System.Threading.Monitor.Exit(lockObj) // Exit the critical section
+    
 // Define a function to prompt the user for input and provide a simple command line interface
 let menu () =
     while true do

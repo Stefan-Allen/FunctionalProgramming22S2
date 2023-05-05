@@ -6,7 +6,7 @@ type AccountType =
 // Define a class for an Account with accountNumber, accountType, and initialBalance fields.
 type Account(accountNumber: string, accountType: AccountType, initialBalance: float32) =
     // Define a mutable balance field with the initial balance value.
-    let mutable balance = initialBalance
+    let mutable balance: float32 = initialBalance
 
     // Read-only properties for accountNumber, accountType, and balance.
     member this.AccountNumber = accountNumber
@@ -17,15 +17,18 @@ type Account(accountNumber: string, accountType: AccountType, initialBalance: fl
     member this.Withdrawal(amount: float32) =
         if amount > balance then
             printfn "Not Enough Funds, Transaction Cancelled!"
+            None
         else
             balance <- balance - amount
-
-    member this.Deposit(amount: float32) = balance <- balance + amount
+            Some amount
+// Define methods for depositing and depositing money from the account.
+    member this.Deposit(amount: float32) =
+        balance <- balance + amount
+        Some amount
 
     // method for printing the account details to the console.
     member this.Print() =
         printfn "Account Type: %A, Account Number: %s, Balance: %.2f" this.AccountType this.AccountNumber balance
-
 // function to check account balance status and print a message to the console.
 let CheckAccount (account: Account) =
     match account.AccountType with
@@ -36,28 +39,33 @@ let CheckAccount (account: Account) =
         | _ -> printfn "Account Balance IS HIGH"
     | Savings ->
         match account.Balance with
-        | balance when balance < 50.0f -> printfn "Account Balance IS lOW"
+        | balance when balance < 50.0f -> printfn "Account Balance IS LOW"
         | balance when balance >= 50.0f && balance <= 500.0f -> printfn "Account Balance IS OK"
         | _ -> printfn "Account Balance IS HIGH"
 
-// list of accounts with balances less than $50.
-let accountsless50 =
+
+// list of accounts 
+let accounts =
     [ Account("0001", Savings, 0.0f)
       Account("0003", Checking, 5.0f)
       Account("988679", Checking, 0.0f)
       Account("363152", Savings, 49.0f)
-      Account("302094", Checking, 25.0f) ]
-
-// list of accounts with balances $50 or greater.
-let accounts50plus =
-    [ Account("0002", Checking, 50.0f)
+      Account("302094", Checking, 25.0f)
+      Account("0002", Checking, 50.0f)
       Account("375470", Savings, 100.0f)
       Account("170857", Savings, 65.0f)
       Account("264587", Savings, 54.0f)
       Account("607345", Checking, 150.0f) ]
 
+   
 // recursive function to execute various actions based on user input.
-let rec executeFunction (accounts: Account list) =
+let rec executeFunction (accounts: Account list) : unit =
+    
+    // set keepRunning to true meaning menu can run even when exits to 0 
+    let mutable keepRunning = true
+
+    // when Keep running is enabled system to rerun it self 
+    while keepRunning do
     printfn "Selector: "
     printfn "1. Display Accounts: "
     printfn "2. Print Account By ID: "
@@ -117,13 +125,17 @@ let rec executeFunction (accounts: Account list) =
             printfn "Account Not Found In System."
             executeFunction accounts
     | "5" ->
-        // Display all accounts with balances less than $50.
-        accountsless50 |> List.iter (fun acc -> acc.Print())
-        executeFunction accounts
+        // sequence loop for checking if accounts are under 50
+        printfn "Accounts under 50£"
+        let lessThan50Seq = accounts |> Seq.filter (fun acc -> acc.Balance < 50.0f)
+        for account in lessThan50Seq do
+            account.Print()
     | "6" ->
-        // Display all accounts with balances $50 or greater.
-        accounts50plus |> List.iter (fun acc -> acc.Print())
-        executeFunction accounts
+        // sequence loop for checking if accounts are above 50
+        printfn "Accounts above 50£"
+        let greaterThan50Seq = accounts |> Seq.filter (fun acc -> acc.Balance >= 50.0f)
+        for account in greaterThan50Seq do
+            account.Print()
     | "7" ->
         // Check and print the balance status for each account.
         accounts |> List.iter (fun acc -> CheckAccount acc)
@@ -136,10 +148,7 @@ let rec executeFunction (accounts: Account list) =
         // Prompt the user for a valid input.
         printfn "Input Not Recognized try again!"
         executeFunction accounts
+// Executes the list function
+executeFunction(accounts)
 
-let printAccounts (accounts: Account list) =
-    accounts |> List.iter (fun acc -> acc.Print())
 
-// Execute the function with the list of accounts.
-printAccounts (accountsless50 @ accounts50plus)
-executeFunction (accountsless50 @ accounts50plus)
